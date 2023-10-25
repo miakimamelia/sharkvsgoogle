@@ -2,6 +2,8 @@
 .iframe-container {
     display: flex;
     justify-content: center;
+    position: relative;
+    top: -100px;
 }
 
 /* Styles for the iframe itself */
@@ -10,3 +12,59 @@
     height: 500px; /* Set the height */
     border: none;  /* Remove the default border */
 }
+
+.textbox {
+    top: -200px;
+    position: relative;
+}
+
+html {
+    font-size: 125%;
+    display: flex;
+    justify-content: center;
+
+ }
+
+ .error-code {
+    color: var(--error-code-color);
+    font-size: .4em;
+    margin-top: 12px;
+    text-transform: uppercase;
+    font-family: Helvetica;
+    font-weight: lighter;
+
+  }
+
+  h1 {
+    color: var(--heading-color);
+    font-size: 1.3em;
+    line-height: 1.25em;
+    margin-bottom: 16px;
+    font-family:monospace;
+  }
+  h2 {
+    font-size: 1em;
+    font-weight: normal;
+    font-family: monospace;
+  }
+
+
+
+ul {
+    font-size: 10px;
+    font-family: monospace;
+    line-height: 200%;
+}
+
+p {
+    font-family: monospace;
+
+}
+
+
+ 
+  a {
+    color: var(--link-color);
+  }
+  
+  
